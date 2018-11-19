@@ -1,7 +1,7 @@
 Custom annotation to read xml files and to set class field at runtime. 
 The goal is to avoid to have sql queries in java classes.
 @SqlFile on class to specify file 
-@SqlQuery on field to spécify query
+@SqlQuery on field to specify query
 
 ```java
 @SqlFile("queries/test.xml")
