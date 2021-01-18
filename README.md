@@ -7,7 +7,7 @@ The goal is to avoid to have sql queries in java classes.
 @SqlFile("queries/test.xml")
 public class Test{
     @SqlQuery("_sql_query")
-    private static myQuery;
+    public static String myQuery;
 }
 ````
 Xml file should look like this :
